@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة أستاذ الرياضيات</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+        }
+
+        header {
+            background: #14213d;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 35px auto;
+            padding: 15px;
+        }
+
+        .welcome {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 18px;
+            margin-top: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 3px 12px #00000010;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 22px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>منصة أستاذ الرياضيات</h1>
+    <p>فضاء رقمي لإنشاء المذكرات والفروض والاختبارات</p>
+</header>
+
+<main>
+    <section class="welcome">
+        <h2>مرحباً بك في منصتك التعليمية</h2>
+        <p>كل أدوات أستاذ الرياضيات في مكان واحد</p>
+        <button onclick="alert('مرحباً بك! المنصة تعمل بنجاح')">
+            ابدأ الآن
+        </button>
+    </section>
+
+    <section class="cards">
+        <div class="card">
+            <h3>📚 المذكرات</h3>
+            <p>إنشاء وتنظيم مذكرات الدروس</p>
+        </div>
+
+        <div class="card">
+            <h3>📝 الفروض</h3>
+            <p>إعداد الفروض المحروسة</p>
+        </div>
+
+        <div class="card">
+            <h3>📋 الاختبارات</h3>
+            <p>إنشاء الاختبارات والتصحيح النموذجي</p>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>
